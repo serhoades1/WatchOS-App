@@ -27,16 +27,27 @@ class CadenceManager: ObservableObject {
     }
     
     func requestPermissions() {
-        // Request motion permissions
-        guard CMMotionManager.isMotionActivityAvailable() else {
-            print("Motion activity not available")
-            return
-        }
-        
+        // Check if step counting is available
         guard CMPedometer.isStepCountingAvailable() else {
             print("Step counting not available")
             return
         }
+        
+        // Check if device motion is available (for additional motion data)
+        guard motionManager.isDeviceMotionAvailable else {
+            print("Device motion not available")
+            return
+        }
+        
+        // Check if cadence data is available (iOS 9.0+)
+        if #available(iOS 9.0, *) {
+            guard CMPedometer.isCadenceAvailable() else {
+                print("Cadence data not available - will calculate from step count")
+                // We can still proceed without native cadence support
+            }
+        }
+        
+        print("Motion permissions and capabilities verified")
     }
     
     func startTracking() {

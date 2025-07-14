@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Cadence Tracker</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>WKWatchOnly</key>
+	<true/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>WKCompanionAppBundleIdentifier</key>
+	<string>com.example.CadenceTracker</string>
+	<key>NSMotionUsageDescription</key>
+	<string>This app needs access to motion data to track your walking and running cadence (steps per minute). This helps provide real-time feedback about your exercise performance.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>This app needs access to health data to track your step count and movement patterns for cadence calculation.</string>
+	<key>NSHealthShareUsageDescription</key>
+	<string>This app needs access to health data to read your step count and movement patterns for cadence calculation.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app may use location data to enhance cadence tracking accuracy during outdoor activities.</string>
+</dict>
+</plist> 

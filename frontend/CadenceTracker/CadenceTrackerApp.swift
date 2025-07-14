@@ -7,4 +7,4 @@ struct CadenceTrackerApp: App {
             ContentView()
         }
     }
-} 
+}

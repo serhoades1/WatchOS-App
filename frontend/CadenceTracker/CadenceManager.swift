@@ -41,7 +41,9 @@ class CadenceManager: ObservableObject {
         
         // Check if cadence data is available (iOS 9.0+)
         if #available(iOS 9.0, *) {
-            guard CMPedometer.isCadenceAvailable() else {
+            if CMPedometer.isCadenceAvailable() {
+                print("Native cadence data available")
+            } else {
                 print("Cadence data not available - will calculate from step count")
                 // We can still proceed without native cadence support
             }

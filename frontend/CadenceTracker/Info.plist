@@ -24,6 +24,8 @@
 	<true/>
 	<key>WKWatchOnly</key>
 	<true/>
+	<key>WKWatchKitApp</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>

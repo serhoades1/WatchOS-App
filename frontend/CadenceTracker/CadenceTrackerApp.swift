@@ -4,7 +4,9 @@ import SwiftUI
 struct CadenceTrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            // ContentView() // Commented out for debugging
+            Text("Debug Mode")
+                .foregroundColor(.white)
         }
     }
 }

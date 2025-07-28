@@ -11,7 +11,7 @@
 		2F1234567890123456789014 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1234567890123456789013 /* ContentView.swift */; };
 		2F1234567890123456789016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1234567890123456789015 /* Assets.xcassets */; };
 		2F1234567890123456789019 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F1234567890123456789018 /* Preview Assets.xcassets */; };
-		2F1234567890123456789021 /* CadenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1234567890123456789020 /* CadenceManager.swift */; };
+
 		2F1234567890123456789023 /* CadenceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1234567890123456789022 /* CadenceData.swift */; };
 /* End PBXBuildFile section */
 
@@ -146,7 +146,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F1234567890123456789014 /* ContentView.swift in Sources */,
-				2F1234567890123456789021 /* CadenceManager.swift in Sources */,
 				2F1234567890123456789023 /* CadenceData.swift in Sources */,
 				2F1234567890123456789012 /* CadenceTrackerApp.swift in Sources */,
 			);
@@ -294,7 +293,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
 		};
@@ -321,7 +320,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
